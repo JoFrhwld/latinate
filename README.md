@@ -13,4 +13,7 @@ At some point, there is going to be no way around coding something or another by
 
 Right now, there are a lot of prefixes in the data scraped from wikipedia that are irrelevant, like `vulp`. It would be nice to pare these down in some principled way. 
 
+## Decisions to make
+I need to decide how I want to handle "prefixes" from wikipedia which aren't cognate with latin prepositions. e.g., *melior-* in  *meliorate*.
+
 
