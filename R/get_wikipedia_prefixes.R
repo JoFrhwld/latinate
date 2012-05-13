@@ -11,4 +11,5 @@ tables <- llply(tables, function(x){
 
 prefixes <- ldply(tables, function(x)if(ncol(x)==5)return(x))
 latinate <- subset(prefixes, origin_language == "Latin")
-write.table(latinate[,-1], file="data/prefixes.txt", sep="\t", row.names=F)
+
+write.table(latinate[,-1], file="data/prefixes_first.txt", sep="\t", row.names=F)

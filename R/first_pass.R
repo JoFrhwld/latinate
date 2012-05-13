@@ -7,6 +7,19 @@ source("R/get_wikipedia_prefixes.R")
 ### tables
 ### theurl
 
+source("R/refine_wikipedia_prefixes.R")
+## Creates objects:
+### latinate_sub
+### meaning_col
+### bad_row
+### english_grep
+### english_prep
+### prep_tf_1
+### prep_tf_2
+### prep_tf_both
+
+
+
 source("R/make_prefix_regex.R")
 ## Creates objects:
 ### prefix.s

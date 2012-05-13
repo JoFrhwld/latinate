@@ -103,3 +103,39 @@ subset(lverbs.df, root == names(root.tab)[13])
 ### de-ny
 good_root <- c(good_root, "y")
 
+## begin hand checking the most common roots
+names(root.tab)[14]
+### "er"
+subset(lverbs.df, root == names(root.tab)[14])
+### conclusion, 'er' is no good
+bad_root <- c(bad_root, "er")
+
+## begin hand checking the most common roots
+names(root.tab)[15]
+### "pose"
+subset(lverbs.df, root == names(root.tab)[15])
+### conclusion, 'pose' is good
+good_root <- c(good_root, "pose")
+
+## begin hand checking the most common roots
+names(root.tab)[16]
+### "ion"
+subset(lverbs.df, root == names(root.tab)[16])
+### conclusion, 'ion' is good
+good_root <- c(good_root, "ion")
+
+## begin hand checking the most common roots
+names(root.tab)[17]
+### "le"
+subset(lverbs.df, root == names(root.tab)[17])
+### conclusion, 'le' is no good
+bad_root <- c(bad_root, "le")
+
+## begin hand checking the most common roots
+names(root.tab)[18]
+### "or"
+subset(lverbs.df, root == names(root.tab)[18])
+### conclusion, 'le' is no good
+bad_root <- c(bad_root, "le")
+
+
